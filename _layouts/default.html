@@ -1,0 +1,33 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	{% seo %}
+	{% feed_meta %}
+
+	<link rel="stylesheet" href="{{ site.baseurl }}/css/screen.css">
+	<link rel="icon" type="image/png" href="{{ site.baseurl }}/images/steveicon.png">
+
+</head>
+
+<body>
+	<header>
+		<div class="container">
+			<div class="company-name"><a href="{{ site.baseurl }}/"><img src="{{ site.baseurl }}/images/steveicon.png"
+						width="95" height="33" /></a></div>
+			{% include navigation.html %}
+		</div>
+		<div class="text-container">
+			<!-- <p>aa</p> -->
+		</div>
+	</header>
+	{{ content }}
+	<footer class="inner">
+	</footer>
+</body>
+
+</html>

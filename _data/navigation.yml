@@ -1,0 +1,28 @@
+- name: High Level Design
+  link: /hld/
+  new_window: false
+  highlight: false
+- name: Hardware Design
+  link: /hardware/
+  new_window: false
+  highlight: false
+- name: Program Design
+  link: /program/
+  new_window: false
+  highlight: false
+- name: Visual/Level/Sound Design
+  link: /visual/
+  new_window: false
+  highlight: false
+- name: Results
+  link: /results/
+  new_window: false
+  highlight: false
+- name: Conclusion
+  link: /conclusion/
+  new_window: false
+  highlight: false
+- name: Appendices
+  link: /appendix/
+  new_window: false
+  highlight: false
